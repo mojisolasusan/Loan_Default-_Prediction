@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import joblib
 from joblib import load 
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA 
